@@ -1,5 +1,5 @@
 use axum::{response::Html, routing::get, Router};
-use ip_mon::parser::Device;
+use netscan::parser::Device;
 use tokio::time::sleep;
 
 #[tokio::main]
